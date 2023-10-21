@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MobileApp"
+    android:background="@drawable/mobileapp_bg">
+
+
+    <Button
+        android:id="@+id/cat1"
+        android:layout_width="346dp"
+        android:layout_height="89dp"
+        android:text="E-Wallet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/button_gradient"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/cat2"
+        android:layout_width="346dp"
+        android:layout_height="89dp"
+        android:text="Route"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/button_gradient"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/cat3"
+        android:layout_width="346dp"
+        android:layout_height="89dp"
+        android:text="Pricing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/button_gradient"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/cat4"
+        android:layout_width="346dp"
+        android:layout_height="89dp"
+        android:text="Ticket"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/button_gradient"
+        android:textColor="@color/black"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

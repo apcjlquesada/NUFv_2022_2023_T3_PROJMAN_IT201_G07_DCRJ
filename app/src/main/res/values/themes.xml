@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SmartFareMobile" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Set the window background to transparent -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+    </style>
+
+
+</resources>

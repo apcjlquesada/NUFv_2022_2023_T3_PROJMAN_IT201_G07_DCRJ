@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#1D191412">
+
+    <EditText
+        android:id="@+id/topup_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter top-up amount"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/confirm_topup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:background="@drawable/button_gradient"/>
+
+    <Button
+        android:id="@+id/cancel_topup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:background="@drawable/button_gradient"/>
+</LinearLayout>

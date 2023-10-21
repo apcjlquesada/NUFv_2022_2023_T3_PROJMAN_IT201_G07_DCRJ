@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1090314684707",
+    "firebase_url": "https://smart-fare-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smart-fare",
+    "storage_bucket": "smart-fare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090314684707:android:b2b591dbf80edc140d6496",
+        "android_client_info": {
+          "package_name": "com.example.smartfare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDQxi61Wnq9ReU-pwT-g-F1EnkA1ZOBm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090314684707:android:588cec037083021f0d6496",
+        "android_client_info": {
+          "package_name": "com.example.smartfaremobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDQxi61Wnq9ReU-pwT-g-F1EnkA1ZOBm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

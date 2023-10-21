@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Route"
+    android:background="@drawable/mobileapp_bg"
+    android:shape="rectangle" >
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="297dp"
+        android:layout_height="374dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="199dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="212dp">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:outlineAmbientShadowColor="@color/black"
+            android:outlineSpotShadowColor="@color/black"
+            app:buttonTint="@color/black">
+
+
+            <RadioButton
+                android:id="@+id/route1"
+                android:layout_width="288dp"
+                android:layout_height="45dp"
+                android:background="@drawable/radio_buttonstyle"
+                android:checked="true"
+                android:drawableStart="@drawable/baseline_add_location_alt_24"
+                android:tag="15"
+                android:text="MAISAN RD /EXPO COM CENTER"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:theme="@style/RadioButtonStyle" />
+
+
+            <RadioButton
+                android:id="@+id/route2"
+                android:layout_width="288dp"
+                android:layout_height="45dp"
+                android:background="@drawable/radio_buttonstyle"
+                android:drawableStart="@drawable/baseline_add_location_alt_24"
+                android:tag="16"
+                android:text="CAYBIGA 4 SQUARE CHURCH"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:theme="@style/RadioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/route3"
+                android:layout_width="288dp"
+                android:layout_height="45dp"
+                android:background="@drawable/radio_buttonstyle"
+                android:drawableStart="@drawable/baseline_add_location_alt_24"
+                android:tag="17"
+                android:text="MAISAN RD/BQ AUTO SUPPLY"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:theme="@style/RadioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/route4"
+                android:layout_width="288dp"
+                android:layout_height="45dp"
+                android:background="@drawable/radio_buttonstyle"
+                android:drawableStart="@drawable/baseline_add_location_alt_24"
+                android:tag="18"
+                android:text="ST ANDREWS CATHOLIC GEN"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:theme="@style/RadioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/route5"
+                android:layout_width="288dp"
+                android:layout_height="45dp"
+                android:background="@drawable/radio_buttonstyle"
+                android:drawableStart="@drawable/baseline_add_location_alt_24"
+                android:tag="18"
+                android:text="BAGBAGUIN RD/NORTH EXPWAY"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:theme="@style/RadioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/route6"
+                android:layout_width="288dp"
+                android:layout_height="45dp"
+                android:background="@drawable/radio_buttonstyle"
+                android:drawableStart="@drawable/baseline_add_location_alt_24"
+                android:tag="19"
+                android:text="GEN LUIS ST./A CRUZ ST."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:theme="@style/RadioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/route7"
+                android:layout_width="288dp"
+                android:layout_height="45dp"
+                android:background="@drawable/radio_buttonstyle"
+                android:drawableStart="@drawable/baseline_add_location_alt_24"
+                android:tag="19"
+                android:text="GEN LUIS ST/A MART CENTER"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:theme="@style/RadioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/route8"
+                android:layout_width="288dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/route7"
+                android:background="@drawable/radio_buttonstyle"
+                android:drawableStart="@drawable/baseline_add_location_alt_24"
+                android:insetTop="1dp"
+                android:tag="20"
+                android:text="NOVALICHES TERMINAL"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:theme="@style/RadioButtonStyle" />
+
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/fare"
+        android:layout_width="149dp"
+        android:layout_height="39dp"
+        android:layout_above="@id/btn_payment"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="13dp"/>
+
+    <Button
+        android:id="@+id/btn_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="97dp"
+        android:background="@drawable/custom_button"
+        android:text="Confirm" />
+
+    <Button
+        android:id="@+id/btn_proceed"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="41dp"
+        android:background="@drawable/button_gradient"
+        android:text="Proceed to payment" />
+
+
+</RelativeLayout>
